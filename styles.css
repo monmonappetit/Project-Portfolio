@@ -1,0 +1,12 @@
+.header-hero {
+    margin: 150px;
+}
+
+
+h1 {
+    font-size: 60px;
+}
+
+h1, h2 {
+    text-align: center;
+}
