@@ -2,6 +2,10 @@
     margin: 150px;
 }
 
+.monica {
+    margin: 0;
+    position: absolute;
+}
 
 h1 {
     font-size: 60px;
@@ -17,6 +21,10 @@ img {
     height: 300px;
     display: block;
     margin: 0 auto;
+}
+
+p {
+    margin: 25px 150px;
 }
 
 @media (max-width: 576px) {
