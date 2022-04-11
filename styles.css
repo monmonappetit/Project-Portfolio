@@ -2,16 +2,11 @@
     margin: 150px;
 }
 
-.monica {
-    margin: 0;
-    position: absolute;
-}
-
 h1 {
     font-size: 60px;
 }
 
-h1, h2 {
+h1, h2, h3 {
     text-align: center;
 }
 
