@@ -3,7 +3,6 @@
     --secondary-color: #116466;
 }
 
-
 .header-hero {
     margin: 150px;
 }
@@ -43,6 +42,11 @@ footer .footer-social a {
 
 footer .footer-social a:hover {
     color: var(--secondary-color);
+}
+
+footer .footer-github a {
+    display: block;
+    font-size: 15px;
 }
 
 @media (max-width: 576px) {
