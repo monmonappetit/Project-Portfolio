@@ -1,18 +1,21 @@
-.root {
+:root {
     --branding-color: #d1e8e2;
     --secondary-color: #116466;
 }
 
 .header-hero {
     margin: 150px;
+    background-color: var(--branding-color);
+    border-radius: 20px;
 }
 
 h1 {
     font-size: 60px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, p {
     text-align: center;
+    line-height: 2;
 }
 
 img {
@@ -24,7 +27,48 @@ img {
 }
 
 p {
-    margin: 25px 150px;
+    margin: 25px 30px;
+}
+
+.description-appearance {
+    background-color: var(--branding-color);
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+.description-appearance h3 {
+    font-weight: bold;
+    text-decoration: underline;
+    color: var(--secondary-color);
+}
+
+.description-img {
+    padding: 15px 20px;
+    margin: 20px 0;
+}
+
+.description-projects {
+    border: 3px solid var(--secondary-color);
+    margin: 0 auto;
+}
+
+.btn-appearance {
+    color: var(--branding-color);
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+a:hover {
+    background-color: var(--branding-color);
+    border: 1px solid var(--secondary-color);
 }
 
 footer {
@@ -54,9 +98,17 @@ footer .footer-github a {
         display: none;
     }
     h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
     h2 {
         font-size: 25px;
+    }
+    .description-appearance, .header-hero {
+        background-color: white;
+        padding-top: 35px;
+        margin: 15px 0;
+    }
+    .description-projects {
+        border: none;
     }
 }
